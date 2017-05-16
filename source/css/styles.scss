@@ -1,5 +1,21 @@
 html {
-	font-size: 18px;
+	font-size: 18px;	
+}
+
+body {
+	font-family: 'Monda', sans-serif !important;
+}
+
+h1 {
+	font-size: 1.5rem;
+}
+
+h4 {
+	font-size: 1.3rem;
+}
+
+p {
+	font-size: 0.9rem;
 }
 
 .banner {
@@ -7,7 +23,8 @@ html {
     background-size: cover;
     background-position: center;
     background-image: url(http://lorempixel.com/1920/600/people/);
-    background-repeat: no-repeat;    
+    background-repeat: no-repeat;   
+    color: #fff; 
     .banner-background {
     	position: absolute;
     	border-radius: 0.3rem;
@@ -24,7 +41,9 @@ html {
     }
 }
 
-.footer {	
+.footer {
+	background-color: #449D44;
+	color: #fff;
 	.txt-footer {
 		font-size: 0.7rem;
 	}	
@@ -43,21 +62,17 @@ html {
 	}
 
 	.nav-item.active {
-	    background-color: #fec503;
+	    /*background-color: #fec503;*/
 	    border-radius: 0.5rem;	
 	}
 }
 
-h1 {
-	font-size: 1.5rem;
-}
-
-h4 {
-	font-size: 1.3rem;
-}
-
-p {
-	font-size: 0.9rem;
+#contenido {
+	.titulo {
+		p {
+			font-size: 1.6rem;
+		}	
+	}
 }
 
 @media (min-width: 576px) {
